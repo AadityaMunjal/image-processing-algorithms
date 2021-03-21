@@ -17,7 +17,6 @@ def grayscale(image):
 
 def convert_to_ascii(image):
   import cv2 as cv
-  from colorama import Fore, Back, Style
   image = cv.resize(image, (0, 0), fx=0.1, fy=0.1) 
   newImage = "\n"
   print(newImage)
