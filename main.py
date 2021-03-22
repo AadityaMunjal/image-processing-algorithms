@@ -15,7 +15,7 @@ def grayscale(image):
       avg = sum(image[row][col][i] for i in range(3)) // 3
       image[row][col] = [avg for _ in range(3)]
 
-def convert_to_ascii(image):
+def convert_to_ascii(image, invert=False):
   import cv2 as cv
   image = cv.resize(image, (0, 0), fx=0.1, fy=0.1) 
   newImage = "\n"
@@ -30,7 +30,10 @@ def convert_to_ascii(image):
 
       for i in range(len(asciiChars)):
         if color_avg < color_step_threshold * i:
-          symbol = asciiChars[i-1]
+          if invert:
+            symbol = asciiChars[-i-1]
+          else:
+            symbol = asciiChars[i-1]
           break
         else: 
           symbol = asciiChars[0]
