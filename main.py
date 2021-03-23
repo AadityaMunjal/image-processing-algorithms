@@ -19,7 +19,6 @@ def convert_to_ascii(image, invert=False):
   import cv2 as cv
   image = cv.resize(image, (0, 0), fx=0.1, fy=0.1) 
   newImage = "\n"
-  print(newImage)
   asciiChars = [" ", ".", ";", "/", "$", "#", "@"] # ascending 
 
   color_step_threshold = 255 // len(asciiChars)
