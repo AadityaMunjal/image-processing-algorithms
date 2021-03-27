@@ -7,8 +7,8 @@
 
 ## How to run
 
-- Run `pip install -r requirments.txt`
-- Run `try.py` to see all the algorithms
+1. Run `pip install -r requirments.txt`
+2. Run `try.py` to see all the algorithms
 
 ---
 
