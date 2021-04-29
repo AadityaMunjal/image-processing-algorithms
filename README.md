@@ -26,6 +26,10 @@
 
 ![BinaryConverted](https://cdn.discordapp.com/attachments/536199577284509696/818494907890925608/unknown.png)
 
+### Invert Image:
+
+![Inverted_image](https://cdn.discordapp.com/attachments/563779252735180831/837231413441855498/unknown.png)
+
 ### Original Image:
 
 ![Original](https://cdn.discordapp.com/attachments/536199577284509696/823231240080850973/unknown.png)
