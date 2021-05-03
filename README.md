@@ -4,6 +4,8 @@
 
 1. Greyscale image
 2. Convert image to binary with a threshold
+3. Invert image 
+4. Convert to ASCII
 
 ## How to run
 
