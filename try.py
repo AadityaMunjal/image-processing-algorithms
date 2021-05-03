@@ -3,6 +3,7 @@ from algorithms.Binary_Convert import binary_convert
 from algorithms.Grayscale import grayscale
 from algorithms.Convert_to_ASCII import convert_to_ascii
 from algorithms.Invert import invert
+from algorithms.Mirror_image import half_mirrorImage
 
 
 image = cv.imread("pics/Desert.jpg", -1)
@@ -24,4 +25,7 @@ image = convert_to_ascii(image)
 print(image)
 
 invert(image)
+show_image(image)
+
+half_mirrorImage(image)
 show_image(image)
