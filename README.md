@@ -6,6 +6,7 @@
 2. Convert image to binary with a threshold
 3. Invert image 
 4. Convert to ASCII
+5. Mirror images
 
 ## How to run
 
