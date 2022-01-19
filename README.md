@@ -4,9 +4,10 @@
 
 1. Greyscale image
 2. Convert image to binary with a threshold
-3. Invert image 
+3. Invert image
 4. Convert to ASCII
-5. Mirror images
+5. Mirror image
+6. Pixilate image
 
 ## How to run
 
