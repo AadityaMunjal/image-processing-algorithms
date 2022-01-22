@@ -16,7 +16,7 @@ def binary_convert(image, threshold: int = 85):
 if __name__ == "__main__":
     import cv2 as cv
 
-    image = cv.imread("pics/Desert.jpg", -1)
+    image = cv.imread("pics/sample_image.jpg", -1)
 
     binary_convert(image)
     show_image(image)

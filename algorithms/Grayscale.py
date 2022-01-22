@@ -11,7 +11,7 @@ def grayscale(image):
 if __name__ == "__main__":
     import cv2 as cv
 
-    image = cv.imread("pics/Desert.jpg", -1)
+    image = cv.imread("pics/sample_image.jpg", -1)
 
     grayscale(image)
     show_image(image)

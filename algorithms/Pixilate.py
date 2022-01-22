@@ -49,7 +49,7 @@ def pixilate(image, scale=1):
 if __name__ == "__main__":
     import cv2 as cv
 
-    image = cv.imread("pics/Desert.jpg", -1)
+    image = cv.imread("pics/sample_image.jpg", -1)
 
-    pixilate(image, scale=2)
+    pixilate(image, scale=1)
     show_image(image)

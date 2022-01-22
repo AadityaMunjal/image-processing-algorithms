@@ -29,7 +29,7 @@ def convert_to_ascii(image, invert=False):
 
 
 if __name__ == "__main__":
-    image = cv.imread("pics/Chrysanthemum.jpg", -1)
+    image = cv.imread("pics/sample_image.jpg", -1)
 
     ascii = convert_to_ascii(image)
     print(ascii)
